@@ -1,0 +1,6 @@
+<p [hidden]="statut == false">P1</p>
+<p [hidden]="statut == true">P2</p>
+
+<button (click)="statut = !statut">Inverser le statut</button>
+
+<p>{{ statut }}</p>
